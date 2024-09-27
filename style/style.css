@@ -1,0 +1,33 @@
+#searchInput {
+    height: 35px;
+    width: 100px;
+}
+
+
+ul li ul.dropdown li {
+    display: block;
+    text-align: center;
+}
+
+ul li ul.dropdown {
+    width: 121px;
+    height: 104px;
+    background: blue;
+    position: absolute;
+    z-index: 999;
+    display: none;
+    margin: 0;
+}
+
+/* ul li a:hover {
+    background: red;
+
+} */
+
+ul li:hover ul.dropdown {
+    display: block;
+}
+
+ul.dropdown li:hover {
+    background: red;
+}

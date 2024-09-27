@@ -1,0 +1,897 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Student Counselling Portal</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="style/style.css">
+</head>
+
+<body>
+    <header class="flex overflow-hidden flex-col bg-neutral-300">
+        <div class="flex overflow-hidden flex-col w-full bg-white border-b border-black max-md:max-w-full">
+            <nav
+                class="flex overflow-hidden flex-wrap gap-10 justify-between items-center px-20 w-full min-h-[72px] max-md:px-5 max-md:max-w-full">
+                <div
+                    class="flex flex-wrap gap-6 items-center self-stretch my-auto text-base text-black min-w-[240px] max-md:max-w-full">
+                    <img loading="lazy"
+                        src="https://cdn.builder.io/api/v1/image/assets/TEMP/4622d4d86abdcc9a8bda5526d2f136c6b6835c608fc969b8f38e690dc975c529?placeholderIfAbsent=true&apiKey=44bb16c3d0ae47df87cf8267c3db8b42"
+                        alt="Company logo"
+                        class="object-contain shrink-0 self-stretch my-auto aspect-[2.33] w-[63px]" />
+                    <ul class="flex overflow-hidden items-center self-stretch my-auto min-w-[240px] max-md:max-w-full">
+                        <li><a href="#" class="gap-2.5 px-4 py-2">Home</a></li>
+                        <li><a href="#" class="gap-2.5 px-4 py-2">Link Two</a></li>
+                        <li><a href="#" class="gap-2.5 px-4 py-2"> Blogs</a></li>
+                        <li>
+                            <a href="#" class="flex gap-0.21rem items-start px-4 py-2">
+                                <span class="self-stretch my-auto ">Link Four</span>
+                                <img loading="lazy"
+                                    src="https://cdn.builder.io/api/v1/image/assets/TEMP/6d29633e70bde4210fbbe7675b5daee2cd2be53b8f156784f460eedd43c1fb92?placeholderIfAbsent=true&apiKey=44bb16c3d0ae47df87cf8267c3db8b42"
+                                    alt="" class="object-contain shrink-0 self-stretch my-auto w-6 aspect-square" />
+                            </a>
+                            <ul class="dropdown">
+                                <li><a href="#">Aaaaaa</a></li>
+                                <li><a href="#">Bbbbbb</a></li>
+                                <li><a href="#">Cccccc</a></li>
+                                <li><a href="#">Dddddd</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+                <div
+                    class="flex gap-9 justify-center items-center self-stretch px-4 my-auto min-w-[240px] max-md:max-w-full">
+                    <form
+                        class="flex gap-3 items-center self-stretch px-3 py-2 my-auto text-base whitespace-nowrap bg-white border border-black border-solid min-h-[40px] min-w-[240px] text-stone-500 w-[248px]">
+                        <label for="searchInput" class="sr-only">Search</label>
+
+                        <input type="search" id="searchInput" placeholder="Search"
+                            class="flex-1 shrink self-stretch my-auto basis-0 bg-transparent border-none" />
+                        <img loading="lazy"
+                            src="https://cdn.builder.io/api/v1/image/assets/TEMP/fcd683e673ba7ec0ba2b334b5f993a5db3f6c22a38eee9e882b1048a139f1252?placeholderIfAbsent=true&apiKey=44bb16c3d0ae47df87cf8267c3db8b42"
+                            alt=""
+                            class="object-contain shrink-0 self-stretch my-auto hover:cursor-pointer w-6 aspect-square" />
+                    </form>
+                    <button class="flex gap-1 items-center self-stretch p-2 my-auto w-10">
+                        <img loading="lazy"
+                            src="https://cdn.builder.io/api/v1/image/assets/TEMP/7861c534ad9c048311e4cfc4819981d14f158e99dc99e3bf37ce849c489f32a9?placeholderIfAbsent=true&apiKey=44bb16c3d0ae47df87cf8267c3db8b42"
+                            alt="Notification icon" class="object-contain self-stretch my-auto w-6 aspect-square" />
+                    </button>
+                    <img loading="lazy"
+                        src="https://cdn.builder.io/api/v1/image/assets/TEMP/dd43df365586c120b1e0ce656594e8fa5d6a46fa572681ff30fccb865ac743fe?placeholderIfAbsent=true&apiKey=44bb16c3d0ae47df87cf8267c3db8b42"
+                        alt="User profile"
+                        class="object-contain shrink-0 self-stretch hover:cursor-pointer my-auto w-10 rounded-full aspect-square" />
+                </div>
+            </nav>
+        </div>
+        <section class="flex  flex-col px-16 bg-white py-28 max-md:px-5 max-md:py-24">
+            <div class="flex flex-wrap gap-10 items-center max-w-full bg-white min-h-[638px] w-[1312px]">
+                <article
+                    class="flex flex-col flex-1 shrink self-stretch my-auto basis-0 min-w-[240px] max-md:max-w-full">
+                    <header class="flex flex-col w-full text-black max-md:max-w-full">
+                        <h2
+                            class="text-6xl font-bold leading-[67px] max-md:max-w-full max-md:text-4xl max-md:leading-[54px]">
+                            BRAINWARE UNIVERSITY
+                        </h2>
+                        <p class="mt-6 text-lg leading-7 max-md:max-w-full">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros
+                            elementum tristique. Duis cursus, mi quis viverra ornare, eros dolor interdum nulla, ut
+                            commodo diam libero vitae erat.
+                        </p>
+                    </header>
+                    <div class="flex gap-4 items-start self-start pt-4 mt-4 text-base whitespace-nowrap">
+                        <button
+                            class="gap-2 self-stretch px-6 py-3 border hover:bg-black hover:text-white border-black border-solid max-md:px-5">
+                            Button
+                        </button>
+                        <button
+                            class="gap-2 self-stretch px-6 py-3 text-black hover:bg-black hover:text-white  border border-black border-solid max-md:px-5">
+                            Button
+                        </button>
+                    </div>
+                </article>
+                <img loading="lazy" src="images/iirf-ranking-big-2023.jpg" alt=""
+                    class="object-contain flex-1 shrink self-stretch my-auto w-full aspect-[0.98] basis-0 min-w-[240px] max-md:max-w-full" />
+            </div>
+        </section>
+        <section
+            class="flex overflow-hidden flex-col px-16 py-28 w-full text-black bg-white max-md:px-5 max-md:py-24 max-md:max-w-full">
+            <div class="flex flex-wrap gap-10 items-start w-full max-md:max-w-full">
+                <h2 class="overflow-hidden flex-1 shrink text-4xl font-bold leading-10 min-w-[240px] max-md:max-w-full">
+                    Long heading is what you see here in this feature section
+                </h2>
+                <p class="overflow-hidden flex-1 shrink text-lg leading-7 min-w-[240px] max-md:max-w-full">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum
+                    tristique. Duis cursus, mi quis viverra ornare, eros dolor interdum nulla, ut commodo diam libero
+                    vitae erat. Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra
+                    ornare, eros dolor interdum nulla.
+                </p>
+            </div>
+            <div class="flex flex-wrap gap-8 justify-center items-start mt-20 w-full max-md:mt-10 max-md:max-w-full">
+                <article class="flex flex-col flex-1 shrink basis-0 min-w-[240px]">
+                    <img loading="lazy"
+                        src="https://cdn.builder.io/api/v1/image/assets/TEMP/fa6119d5f81204fe6d3516d96540d57df07aacd17aae3a163ee6969b8454b114?placeholderIfAbsent=true&apiKey=44bb16c3d0ae47df87cf8267c3db8b42"
+                        alt="" class="object-contain w-12 aspect-square" />
+                    <h3 class="mt-6 text-2xl font-bold leading-9">Medium length section heading goes here</h3>
+                    <p class="mt-4 text-base leading-6">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros
+                        elementum tristique.
+                    </p>
+                    <a href="#" class="flex gap-0 justify-center items-center self-start mt-6 text-base">
+                        <span>Button</span>
+                        <img loading="lazy"
+                            src="https://cdn.builder.io/api/v1/image/assets/TEMP/9cc59fc65142f42773e3131d8a5a5a8d452f8191d61b72aca044880ddbb310ec?placeholderIfAbsent=true&apiKey=44bb16c3d0ae47df87cf8267c3db8b42"
+                            alt="" class="object-contain shrink-0 self-stretch my-auto pt-1.5 w-7 aspect-square" />
+                    </a>
+                </article>
+                <article class="flex flex-col flex-1 shrink basis-0 min-w-[240px]">
+                    <img loading="lazy"
+                        src="https://cdn.builder.io/api/v1/image/assets/TEMP/fa6119d5f81204fe6d3516d96540d57df07aacd17aae3a163ee6969b8454b114?placeholderIfAbsent=true&apiKey=44bb16c3d0ae47df87cf8267c3db8b42"
+                        alt="" class="object-contain w-12 aspect-square" />
+                    <h3 class="mt-6 text-2xl font-bold leading-9">Medium length section heading goes here</h3>
+                    <p class="mt-4 text-base leading-6">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros
+                        elementum tristique.
+                    </p>
+                    <a href="#" class="flex gap-0 justify-center items-center self-start mt-6 text-base">
+                        <span>Button</span>
+                        <img loading="lazy"
+                            src="https://cdn.builder.io/api/v1/image/assets/TEMP/9cc59fc65142f42773e3131d8a5a5a8d452f8191d61b72aca044880ddbb310ec?placeholderIfAbsent=true&apiKey=44bb16c3d0ae47df87cf8267c3db8b42"
+                            alt="" class="object-contain shrink-0 self-stretch my-auto pt-1.5 w-7 aspect-square" />
+                    </a>
+                </article>
+                <article class="flex flex-col flex-1 shrink basis-0 min-w-[240px]">
+                    <img loading="lazy"
+                        src="https://cdn.builder.io/api/v1/image/assets/TEMP/fa6119d5f81204fe6d3516d96540d57df07aacd17aae3a163ee6969b8454b114?placeholderIfAbsent=true&apiKey=44bb16c3d0ae47df87cf8267c3db8b42"
+                        alt="" class="object-contain w-12 aspect-square" />
+                    <h3 class="mt-6 text-2xl font-bold leading-9">Medium length section heading goes here</h3>
+                    <p class="mt-4 text-base leading-6">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros
+                        elementum tristique.
+                    </p>
+                    <a href="#" class="flex gap-0 justify-center items-center self-start mt-6 text-base">
+                        <span>Button</span>
+                        <img loading="lazy"
+                            src="https://cdn.builder.io/api/v1/image/assets/TEMP/9cc59fc65142f42773e3131d8a5a5a8d452f8191d61b72aca044880ddbb310ec?placeholderIfAbsent=true&apiKey=44bb16c3d0ae47df87cf8267c3db8b42"
+                            alt="" class="object-contain shrink-0 self-stretch my-auto pt-1.5 w-7 aspect-square" />
+                    </a>
+                </article>
+                <article class="flex flex-col flex-1 shrink basis-0 min-w-[240px]">
+                    <img loading="lazy"
+                        src="https://cdn.builder.io/api/v1/image/assets/TEMP/fa6119d5f81204fe6d3516d96540d57df07aacd17aae3a163ee6969b8454b114?placeholderIfAbsent=true&apiKey=44bb16c3d0ae47df87cf8267c3db8b42"
+                        alt="" class="object-contain w-12 aspect-square" />
+                    <h3 class="mt-6 text-2xl font-bold leading-9">Medium length section heading goes here</h3>
+                    <p class="mt-4 text-base leading-6">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros
+                        elementum tristique.
+                    </p>
+                    <a href="#" class="flex gap-0 justify-center items-center self-start mt-6 text-base">
+                        <span>Button</span>
+                        <img loading="lazy"
+                            src="https://cdn.builder.io/api/v1/image/assets/TEMP/9cc59fc65142f42773e3131d8a5a5a8d452f8191d61b72aca044880ddbb310ec?placeholderIfAbsent=true&apiKey=44bb16c3d0ae47df87cf8267c3db8b42"
+                            alt="" class="object-contain shrink-0 self-stretch my-auto pt-1.5 w-7 aspect-square" />
+                    </a>
+                </article>
+            </div>
+        </section>
+        <section
+            class="flex overflow-hidden flex-col px-16 py-28 w-full bg-white max-md:px-5 max-md:py-24 max-md:max-w-full">
+            <div class="flex flex-col self-center max-w-full text-center text-black w-[768px]">
+                <p class="self-center text-base font-semibold">Tagline</p>
+                <h2 class="mt-4 text-5xl font-bold leading-tight max-md:max-w-full max-md:text-4xl">Our team</h2>
+                <p class="mt-6 text-lg max-md:max-w-full">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+            </div>
+            <div class="flex flex-col mt-20 w-full max-md:mt-10 max-md:max-w-full">
+                <div class="flex flex-wrap gap-10 items-start w-full max-md:max-w-full">
+                    <article class="flex flex-col flex-1 shrink items-center basis-0 min-w-[240px]">
+                        <img loading="lazy" src="images/people/p1.avif" alt="Team member"
+                            class="object-contain h-20 w-20 rounded-full object-cover" />
+                        <div class="flex flex-col self-stretch mt-6 w-full text-center text-black">
+                            <h3 class="text-xl font-semibold">Full name</h3>
+                            <p class="text-lg">Job title</p>
+                            <p class="mt-4 text-base leading-6">
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros
+                                elementum tristique.
+                            </p>
+                        </div>
+                        <div class="flex gap-3.5 items-start mt-6">
+                            <a href="#" aria-label="Twitter profile"><img loading="lazy"
+                                    src="https://cdn.builder.io/api/v1/image/assets/TEMP/335e4f99e65a7ce75910c0140a0b3867ac9dc2d23eecc66493b245bc005ac4da?placeholderIfAbsent=true&apiKey=44bb16c3d0ae47df87cf8267c3db8b42"
+                                    alt="" class="object-contain shrink-0 w-6 aspect-square" /></a>
+                            <a href="#" aria-label="LinkedIn profile"><img loading="lazy"
+                                    src="https://cdn.builder.io/api/v1/image/assets/TEMP/af49feca97252db2996fa95d0c023e1b8c8d3a688f037b9a1e44dc7a9b862d1f?placeholderIfAbsent=true&apiKey=44bb16c3d0ae47df87cf8267c3db8b42"
+                                    alt="" class="object-contain shrink-0 w-6 aspect-square" /></a>
+                            <a href="#" aria-label="GitHub profile"><img loading="lazy"
+                                    src="https://cdn.builder.io/api/v1/image/assets/TEMP/65f0bc79f51bd4405280d5a2d20cca687eacbf84a8094a27464338ecfccbf38f?placeholderIfAbsent=true&apiKey=44bb16c3d0ae47df87cf8267c3db8b42"
+                                    alt="" class="object-contain shrink-0 w-6 aspect-square" /></a>
+                        </div>
+                    </article>
+                    <article class="flex flex-col flex-1 shrink items-center basis-0 min-w-[240px]">
+                        <img loading="lazy" src="images/people/p2.avif" alt="Team member"
+                            class="object-contain h-20 w-20 rounded-full object-cover" />
+                        <div class="flex flex-col self-stretch mt-6 w-full text-center text-black">
+                            <h3 class="text-xl font-semibold">Full name</h3>
+                            <p class="text-lg">Job title</p>
+                            <p class="mt-4 text-base leading-6">
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros
+                                elementum tristique.
+                            </p>
+                        </div>
+                        <div class="flex gap-3.5 items-start mt-6">
+                            <a href="#" aria-label="Twitter profile"><img loading="lazy"
+                                    src="https://cdn.builder.io/api/v1/image/assets/TEMP/b232fb94b57871e38bd47ce7536ed58b9ce7d4572ce3d7c7398ebeb756e78ae0?placeholderIfAbsent=true&apiKey=44bb16c3d0ae47df87cf8267c3db8b42"
+                                    alt="" class="object-contain shrink-0 w-6 aspect-square" /></a>
+                            <a href="#" aria-label="LinkedIn profile"><img loading="lazy"
+                                    src="https://cdn.builder.io/api/v1/image/assets/TEMP/eb85a1cd9511138e16cf0596a5356e50f55a80cdac6b5c439e734ea38bb19295?placeholderIfAbsent=true&apiKey=44bb16c3d0ae47df87cf8267c3db8b42"
+                                    alt="" class="object-contain shrink-0 w-6 aspect-square" /></a>
+                            <a href="#" aria-label="GitHub profile"><img loading="lazy"
+                                    src="https://cdn.builder.io/api/v1/image/assets/TEMP/b3db297e459d8687e45277b92eadae854a845bef5ab57bcfa52b323d9e2c0c60?placeholderIfAbsent=true&apiKey=44bb16c3d0ae47df87cf8267c3db8b42"
+                                    alt="" class="object-contain shrink-0 w-6 aspect-square" /></a>
+                        </div>
+                    </article>
+                    <article class="flex flex-col flex-1 shrink items-center basis-0 min-w-[240px]">
+                        <img loading="lazy" src="images/people/p3.avif" alt="Team member"
+                            class="object-contain h-20 w-20 rounded-full object-cover" />
+                        <div class="flex flex-col self-stretch mt-6 w-full text-center text-black">
+                            <h3 class="text-xl font-semibold">Full name</h3>
+                            <p class="text-lg">Job title</p>
+                            <p class="mt-4 text-base leading-6">
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros
+                                elementum tristique.
+                            </p>
+                        </div>
+                        <div class="flex gap-3.5 items-start mt-6">
+                            <a href="#" aria-label="Twitter profile"><img loading="lazy"
+                                    src="https://cdn.builder.io/api/v1/image/assets/TEMP/edad4937354feac261f359bb193c7cee110f639f31a3f6bec5b9071490ae4b6e?placeholderIfAbsent=true&apiKey=44bb16c3d0ae47df87cf8267c3db8b42"
+                                    alt="" class="object-contain shrink-0 w-6 aspect-square" /></a>
+                            <a href="#" aria-label="LinkedIn profile"><img loading="lazy"
+                                    src="https://cdn.builder.io/api/v1/image/assets/TEMP/306c797d4116754a0c296fa6e825455ccabb57d430a5e7e78e84cca1bc99180f?placeholderIfAbsent=true&apiKey=44bb16c3d0ae47df87cf8267c3db8b42"
+                                    alt="" class="object-contain shrink-0 w-6 aspect-square" /></a>
+                            <a href="#" aria-label="GitHub profile"><img loading="lazy"
+                                    src="https://cdn.builder.io/api/v1/image/assets/TEMP/9f033e8724e5cd02a376387aa5b827d72b4c2c5a0c5c6e40ba1b57743ec99bbc?placeholderIfAbsent=true&apiKey=44bb16c3d0ae47df87cf8267c3db8b42"
+                                    alt="" class="object-contain shrink-0 w-6 aspect-square" /></a>
+                        </div>
+                    </article>
+                </div>
+                <div class="flex flex-wrap gap-10 items-start mt-16 w-full max-md:mt-10 max-md:max-w-full">
+                    <article class="flex flex-col flex-1 shrink items-center basis-0 min-w-[240px]">
+                        <img loading="lazy" src="images/people/p4.avif" alt="Team member"
+                            class="object-contain h-20 w-20 rounded-full object-cover" />
+                        <div class="flex flex-col self-stretch mt-6 w-full text-center text-black">
+                            <h3 class="text-xl font-semibold">Full name</h3>
+                            <p class="text-lg">Job title</p>
+                            <p class="mt-4 text-base leading-6">
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros
+                                elementum tristique.
+                            </p>
+                        </div>
+                        <div class="flex gap-3.5 items-start mt-6">
+                            <a href="#" aria-label="Twitter profile"><img loading="lazy"
+                                    src="https://cdn.builder.io/api/v1/image/assets/TEMP/335e4f99e65a7ce75910c0140a0b3867ac9dc2d23eecc66493b245bc005ac4da?placeholderIfAbsent=true&apiKey=44bb16c3d0ae47df87cf8267c3db8b42"
+                                    alt="" class="object-contain shrink-0 w-6 aspect-square" /></a>
+                            <a href="#" aria-label="LinkedIn profile"><img loading="lazy"
+                                    src="https://cdn.builder.io/api/v1/image/assets/TEMP/af49feca97252db2996fa95d0c023e1b8c8d3a688f037b9a1e44dc7a9b862d1f?placeholderIfAbsent=true&apiKey=44bb16c3d0ae47df87cf8267c3db8b42"
+                                    alt="" class="object-contain shrink-0 w-6 aspect-square" /></a>
+                            <a href="#" aria-label="GitHub profile"><img loading="lazy"
+                                    src="https://cdn.builder.io/api/v1/image/assets/TEMP/65f0bc79f51bd4405280d5a2d20cca687eacbf84a8094a27464338ecfccbf38f?placeholderIfAbsent=true&apiKey=44bb16c3d0ae47df87cf8267c3db8b42"
+                                    alt="" class="object-contain shrink-0 w-6 aspect-square" /></a>
+                        </div>
+                    </article>
+                    <article class="flex flex-col flex-1 shrink items-center basis-0 min-w-[240px]">
+                        <img loading="lazy" src="images/people/p5.avif" alt="Team member"
+                            class="object-contain h-20 w-20 rounded-full object-cover" />
+                        <div class="flex flex-col self-stretch mt-6 w-full text-center text-black">
+                            <h3 class="text-xl font-semibold">Full name</h3>
+                            <p class="text-lg">Job title</p>
+                            <p class="mt-4 text-base leading-6">
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros
+                                elementum tristique.
+                            </p>
+                        </div>
+                        <div class="flex gap-3.5 items-start mt-6">
+                            <a href="#" aria-label="Twitter profile"><img loading="lazy"
+                                    src="https://cdn.builder.io/api/v1/image/assets/TEMP/b232fb94b57871e38bd47ce7536ed58b9ce7d4572ce3d7c7398ebeb756e78ae0?placeholderIfAbsent=true&apiKey=44bb16c3d0ae47df87cf8267c3db8b42"
+                                    alt="" class="object-contain shrink-0 w-6 aspect-square" /></a>
+                            <a href="#" aria-label="LinkedIn profile"><img loading="lazy"
+                                    src="https://cdn.builder.io/api/v1/image/assets/TEMP/eb85a1cd9511138e16cf0596a5356e50f55a80cdac6b5c439e734ea38bb19295?placeholderIfAbsent=true&apiKey=44bb16c3d0ae47df87cf8267c3db8b42"
+                                    alt="" class="object-contain shrink-0 w-6 aspect-square" /></a>
+                            <a href="#" aria-label="GitHub profile"><img loading="lazy"
+                                    src="https://cdn.builder.io/api/v1/image/assets/TEMP/b3db297e459d8687e45277b92eadae854a845bef5ab57bcfa52b323d9e2c0c60?placeholderIfAbsent=true&apiKey=44bb16c3d0ae47df87cf8267c3db8b42"
+                                    alt="" class="object-contain shrink-0 w-6 aspect-square" /></a>
+                        </div>
+                    </article>
+                    <article class="flex flex-col flex-1 shrink items-center basis-0 min-w-[240px]">
+                        <img loading="lazy" src="images/people/p6.avif" alt="Team member"
+                            class="object-contain h-20 w-20 rounded-full object-cover" />
+                        <div class="flex flex-col self-stretch mt-6 w-full text-center text-black">
+                            <h3 class="text-xl font-semibold">Full name</h3>
+                            <p class="text-lg">Job title</p>
+                            <p class="mt-4 text-base leading-6">
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros
+                                elementum tristique.
+                            </p>
+                        </div>
+                        <div class="flex gap-3.5 items-start mt-6">
+                            <a href="#" aria-label="Twitter profile"><img loading="lazy"
+                                    src="https://cdn.builder.io/api/v1/image/assets/TEMP/edad4937354feac261f359bb193c7cee110f639f31a3f6bec5b9071490ae4b6e?placeholderIfAbsent=true&apiKey=44bb16c3d0ae47df87cf8267c3db8b42"
+                                    alt="" class="object-contain shrink-0 w-6 aspect-square" /></a>
+                            <a href="#" aria-label="LinkedIn profile"><img loading="lazy"
+                                    src="https://cdn.builder.io/api/v1/image/assets/TEMP/306c797d4116754a0c296fa6e825455ccabb57d430a5e7e78e84cca1bc99180f?placeholderIfAbsent=true&apiKey=44bb16c3d0ae47df87cf8267c3db8b42"
+                                    alt="" class="object-contain shrink-0 w-6 aspect-square" /></a>
+                            <a href="#" aria-label="GitHub profile"><img loading="lazy"
+                                    src="https://cdn.builder.io/api/v1/image/assets/TEMP/9f033e8724e5cd02a376387aa5b827d72b4c2c5a0c5c6e40ba1b57743ec99bbc?placeholderIfAbsent=true&apiKey=44bb16c3d0ae47df87cf8267c3db8b42"
+                                    alt="" class="object-contain shrink-0 w-6 aspect-square" /></a>
+                        </div>
+                    </article>
+                </div>
+            </div>
+            <div class="flex flex-col items-center self-center mt-24 max-w-full text-black w-[768px] max-md:mt-10">
+                <p class="w-full text-lg text-center max-md:max-w-full">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                </p>
+                <a href="#"
+                    class="gap-2 self-stretch px-6 py-3 mt-6 text-base border border-black border-solid max-md:px-5">
+                    Open positions
+                </a>
+            </div>
+        </section>
+        <section
+            class="flex overflow-hidden flex-col px-16 py-28 w-full bg-white max-md:px-5 max-md:py-24 max-md:max-w-full">
+            <div class="flex flex-col items-start self-center max-w-full text-center text-black w-[560px]">
+                <h2 class="text-5xl font-bold leading-tight max-md:max-w-full max-md:text-4xl">Customer testimonials
+                </h2>
+                <p class="mt-6 text-lg max-md:max-w-full">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+            </div>
+            <div class="flex gap-8 items-start mt-20 w-full max-md:mt-10 max-md:max-w-full">
+                <article class="flex flex-col p-8 border border-black border-solid min-w-[240px] w-[420px] max-md:px-5">
+                    <div class="flex overflow-hidden gap-1 items-start self-start">
+                        <img loading="lazy"
+                            src="https://cdn.builder.io/api/v1/image/assets/TEMP/7e4df2cd1a7939a31855fa8e82b1b9421fc9a6af4643291313cbb9984d060bb0?placeholderIfAbsent=true&apiKey=44bb16c3d0ae47df87cf8267c3db8b42"
+                            alt="Star rating" class="object-contain shrink-0 w-5 aspect-[1.05]" />
+                        <img loading="lazy"
+                            src="https://cdn.builder.io/api/v1/image/assets/TEMP/c0c0bd8cc1994f0be2e0642388ec16bd4b1bc4935b17d8279bcaf5016e8ee791?placeholderIfAbsent=true&apiKey=44bb16c3d0ae47df87cf8267c3db8b42"
+                            alt="" class="object-contain shrink-0 w-5 aspect-[1.05]" />
+                        <img loading="lazy"
+                            src="https://cdn.builder.io/api/v1/image/assets/TEMP/baa506a0898dadef1fc70d04bdf8d48bbb6dc05e834904d5ab10773a03830143?placeholderIfAbsent=true&apiKey=44bb16c3d0ae47df87cf8267c3db8b42"
+                            alt="" class="object-contain shrink-0 w-5 aspect-[1.05]" />
+                        <img loading="lazy"
+                            src="https://cdn.builder.io/api/v1/image/assets/TEMP/baa506a0898dadef1fc70d04bdf8d48bbb6dc05e834904d5ab10773a03830143?placeholderIfAbsent=true&apiKey=44bb16c3d0ae47df87cf8267c3db8b42"
+                            alt="" class="object-contain shrink-0 w-5 aspect-[1.05]" />
+                        <img loading="lazy"
+                            src="https://cdn.builder.io/api/v1/image/assets/TEMP/91d3dc9c2ee6e66b36a93cb1f8ae9cf8d9165b92cb08d0a068d0b07e99686fb7?placeholderIfAbsent=true&apiKey=44bb16c3d0ae47df87cf8267c3db8b42"
+                            alt="" class="object-contain shrink-0 w-5 aspect-[1.05]" />
+                    </div>
+                    <blockquote class="flex flex-col mt-6 w-full text-black">
+                        <p class="text-lg leading-7">
+                            "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros
+                            elementum tristique. Duis cursus, mi quis viverra ornare."
+                        </p>
+                        <footer class="flex gap-5 items-center self-start mt-6 text-base">
+                            <img loading="lazy" src="images/people/p7.jpeg" alt="Customer"
+                                class="object-contain shrink-0 self-stretch my-auto w-14 rounded-full h-14 object-cover" />
+                            <div class="flex flex-col self-stretch my-auto">
+                                <cite class="font-semibold not-italic">Name Surname</cite>
+                                <p>Position, Company name</p>
+                            </div>
+                        </footer>
+                    </blockquote>
+                </article>
+                <article class="flex flex-col p-8 border border-black border-solid min-w-[240px] w-[420px] max-md:px-5">
+                    <div class="flex overflow-hidden gap-1 items-start self-start">
+                        <img loading="lazy"
+                            src="https://cdn.builder.io/api/v1/image/assets/TEMP/7e4df2cd1a7939a31855fa8e82b1b9421fc9a6af4643291313cbb9984d060bb0?placeholderIfAbsent=true&apiKey=44bb16c3d0ae47df87cf8267c3db8b42"
+                            alt="Star rating" class="object-contain shrink-0 w-5 aspect-[1.05]" />
+                        <img loading="lazy"
+                            src="https://cdn.builder.io/api/v1/image/assets/TEMP/f83b7e20159586c59267bb7091fa58f00f974209e14e60cc18946689549d95ab?placeholderIfAbsent=true&apiKey=44bb16c3d0ae47df87cf8267c3db8b42"
+                            alt="" class="object-contain shrink-0 w-5 aspect-[1.05]" />
+                        <img loading="lazy"
+                            src="https://cdn.builder.io/api/v1/image/assets/TEMP/ce3e50b3453406962abd5d2a06159532ec8c44c3b264a5637b75b42a8c32d90b?placeholderIfAbsent=true&apiKey=44bb16c3d0ae47df87cf8267c3db8b42"
+                            alt="" class="object-contain shrink-0 w-5 aspect-[1.05]" />
+                        <img loading="lazy"
+                            src="https://cdn.builder.io/api/v1/image/assets/TEMP/fdb78a1e17f353a4ea9cabda513031384e9e3651b4f9a4a7848f3d01ed038775?placeholderIfAbsent=true&apiKey=44bb16c3d0ae47df87cf8267c3db8b42"
+                            alt="" class="object-contain shrink-0 w-5 aspect-[1.05]" />
+                        <img loading="lazy"
+                            src="https://cdn.builder.io/api/v1/image/assets/TEMP/ad7fd093df8c4294bef3e63a34ac6b5cfe73e3021301cb23a722544fad2e8b38?placeholderIfAbsent=true&apiKey=44bb16c3d0ae47df87cf8267c3db8b42"
+                            alt="" class="object-contain shrink-0 w-5 aspect-[1.05]" />
+                    </div>
+                    <blockquote class="flex flex-col mt-6 w-full text-black">
+                        <p class="text-lg leading-7">
+                            "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros
+                            elementum tristique. Duis cursus, mi quis viverra ornare."
+                        </p>
+                        <footer class="flex gap-5 items-center self-start mt-6 text-base">
+                            <img loading="lazy" src="images/people/p8.webp" alt="Customer"
+                                class="object-contain shrink-0 self-stretch my-auto w-14 rounded-full h-14 object-cover" />
+                            <div class="flex flex-col self-stretch my-auto">
+                                <cite class="font-semibold not-italic">Name Surname</cite>
+                                <p>Position, Company name</p>
+                            </div>
+                        </footer>
+                    </blockquote>
+                </article>
+                <article class="flex flex-col p-8 border border-black border-solid min-w-[240px] w-[420px] max-md:px-5">
+                    <div class="flex overflow-hidden gap-1 items-start self-start">
+                        <img loading="lazy"
+                            src="https://cdn.builder.io/api/v1/image/assets/TEMP/7e4df2cd1a7939a31855fa8e82b1b9421fc9a6af4643291313cbb9984d060bb0?placeholderIfAbsent=true&apiKey=44bb16c3d0ae47df87cf8267c3db8b42"
+                            alt="Star rating" class="object-contain shrink-0 w-5 aspect-[1.05]" />
+                        <img loading="lazy"
+                            src="https://cdn.builder.io/api/v1/image/assets/TEMP/c0c0bd8cc1994f0be2e0642388ec16bd4b1bc4935b17d8279bcaf5016e8ee791?placeholderIfAbsent=true&apiKey=44bb16c3d0ae47df87cf8267c3db8b42"
+                            alt="" class="object-contain shrink-0 w-5 aspect-[1.05]" />
+                        <img loading="lazy"
+                            src="https://cdn.builder.io/api/v1/image/assets/TEMP/007fab10ab2e15abf1167312ac47b4d5ee1d11fcc4e8174accf164ea4d58b122?placeholderIfAbsent=true&apiKey=44bb16c3d0ae47df87cf8267c3db8b42"
+                            alt="" class="object-contain shrink-0 w-5 aspect-[1.05]" />
+                        <img loading="lazy"
+                            src="https://cdn.builder.io/api/v1/image/assets/TEMP/fdb78a1e17f353a4ea9cabda513031384e9e3651b4f9a4a7848f3d01ed038775?placeholderIfAbsent=true&apiKey=44bb16c3d0ae47df87cf8267c3db8b42"
+                            alt="" class="object-contain shrink-0 w-5 aspect-[1.05]" />
+                        <img loading="lazy"
+                            src="https://cdn.builder.io/api/v1/image/assets/TEMP/91d3dc9c2ee6e66b36a93cb1f8ae9cf8d9165b92cb08d0a068d0b07e99686fb7?placeholderIfAbsent=true&apiKey=44bb16c3d0ae47df87cf8267c3db8b42"
+                            alt="" class="object-contain shrink-0 w-5 aspect-[1.05]" />
+                    </div>
+                    <blockquote class="flex flex-col mt-6 w-full text-black">
+                        <p class="text-lg leading-7">
+                            "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros
+                            elementum tristique. Duis cursus, mi quis viverra ornare."
+                        </p>
+                        <footer class="flex gap-5 items-center self-start mt-6 text-base">
+                            <img loading="lazy" src="images/people/p9.webp" alt="Customer"
+                                class="object-contain shrink-0 self-stretch my-auto w-14 rounded-full h-14 object-cover" />
+                            <div class="flex flex-col self-stretch my-auto">
+                                <cite class="font-semibold not-italic">Name Surname</cite>
+                                <p>Position, Company name</p>
+                            </div>
+                        </footer>
+                    </blockquote>
+                </article>
+                <article class="flex flex-col p-8 border border-black border-solid min-w-[240px] w-[420px] max-md:px-5">
+                    <div class="flex overflow-hidden gap-1 items-start self-start">
+                        <img loading="lazy"
+                            src="https://cdn.builder.io/api/v1/image/assets/TEMP/7e4df2cd1a7939a31855fa8e82b1b9421fc9a6af4643291313cbb9984d060bb0?placeholderIfAbsent=true&apiKey=44bb16c3d0ae47df87cf8267c3db8b42"
+                            alt="Star rating" class="object-contain shrink-0 w-5 aspect-[1.05]" />
+                        <img loading="lazy"
+                            src="https://cdn.builder.io/api/v1/image/assets/TEMP/c0c0bd8cc1994f0be2e0642388ec16bd4b1bc4935b17d8279bcaf5016e8ee791?placeholderIfAbsent=true&apiKey=44bb16c3d0ae47df87cf8267c3db8b42"
+                            alt="" class="object-contain shrink-0 w-5 aspect-[1.05]" />
+                        <img loading="lazy"
+                            src="https://cdn.builder.io/api/v1/image/assets/TEMP/007fab10ab2e15abf1167312ac47b4d5ee1d11fcc4e8174accf164ea4d58b122?placeholderIfAbsent=true&apiKey=44bb16c3d0ae47df87cf8267c3db8b42"
+                            alt="" class="object-contain shrink-0 w-5 aspect-[1.05]" />
+                        <img loading="lazy"
+                            src="https://cdn.builder.io/api/v1/image/assets/TEMP/fdb78a1e17f353a4ea9cabda513031384e9e3651b4f9a4a7848f3d01ed038775?placeholderIfAbsent=true&apiKey=44bb16c3d0ae47df87cf8267c3db8b42"
+                            alt="" class="object-contain shrink-0 w-5 aspect-[1.05]" />
+                        <img loading="lazy"
+                            src="https://cdn.builder.io/api/v1/image/assets/TEMP/91d3dc9c2ee6e66b36a93cb1f8ae9cf8d9165b92cb08d0a068d0b07e99686fb7?placeholderIfAbsent=true&apiKey=44bb16c3d0ae47df87cf8267c3db8b42"
+                            alt="" class="object-contain shrink-0 w-5 aspect-[1.05]" />
+                    </div>
+                    <blockquote class="flex flex-col mt-6 w-full text-black">
+                        <p class="text-lg leading-7">
+                            "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros
+                            elementum tristique. Duis cursus, mi quis viverra ornare."
+                        </p>
+                        <footer class="flex gap-5 items-center self-start mt-6 text-base">
+                            <img loading="lazy" src="images/people/p10.webp" alt="Customer"
+                                class="object-contain shrink-0 self-stretch my-auto w-14 rounded-full h-14 object-cover" />
+                            <div class="flex flex-col self-stretch my-auto">
+                                <cite class="font-semibold not-italic">Name Surname</cite>
+                                <p>Position, Company name</p>
+                            </div>
+                        </footer>
+                    </blockquote>
+                </article>
+
+            </div>
+        </section>
+        <section
+            class="flex overflow-hidden flex-col px-16 py-28 w-full text-black bg-white max-md:px-5 max-md:py-24 max-md:max-w-full">
+            <div class="flex flex-col self-center max-w-full text-center w-[768px]">
+                <p class="self-center text-base font-semibold">Blog</p>
+                <h2 class="mt-4 text-6xl font-bold leading-tight max-md:max-w-full max-md:text-4xl">Short heading goes
+                    here</h2>
+                <p class="mt-6 text-lg max-md:max-w-full">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+            </div>
+            <div class="flex flex-col mt-20 w-full max-md:mt-10 max-md:max-w-full">
+                <nav class="flex flex-wrap items-center self-center text-base max-md:max-w-full">
+
+                    <a href="#" class="gap-2 self-stretch px-4 py-2 my-auto">Category one</a>
+                    <a href="#" class="gap-2 self-stretch px-4 py-2 my-auto">Category two</a>
+                    <a href="#" class="gap-2 self-stretch px-4 py-2 my-auto">Category three</a>
+                    <a href="#" class="gap-2 self-stretch px-4 py-2 my-auto">Category four</a>
+                    <a href="#"
+                        class="gap-2 self-stretch px-4 py-2 my-auto border border-black hover:bg-black hover:text-white border-solid">View
+                        all</a>
+                </nav>
+                <div class="flex flex-col mt-16 w-full max-md:mt-10 max-md:max-w-full">
+                    <div class="flex flex-wrap gap-10 w-full max-md:max-w-full">
+                        <article
+                            class="flex flex-wrap flex-1 shrink gap-6 items-center h-full basis-0 min-w-[240px] max-md:max-w-full">
+                            <img loading="lazy" src="images/Campus.jpeg" alt="Blog post thumbnail"
+                                class="object-contain self-stretch my-auto aspect-square min-w-[240px] w-[250px]" />
+                            <div class="flex flex-col flex-1 shrink self-stretch my-auto basis-0 min-w-[240px]">
+                                <div class="flex flex-col w-full">
+                                    <div class="flex gap-4 items-center self-start text-sm font-semibold">
+                                        <span
+                                            class="self-stretch px-2 py-1 my-auto whitespace-nowrap bg-zinc-100">Category</span>
+                                        <span class="self-stretch my-auto">5 min read</span>
+                                    </div>
+                                    <h3 class="mt-4 text-2xl font-bold leading-snug">Blog title heading will go here
+                                    </h3>
+                                    <p class="mt-2 text-base leading-6">
+                                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius
+                                        enim...
+                                    </p>
+                                </div>
+                                <a href="#" class="flex gap-0 justify-center items-center self-start mt-6 text-base">
+                                    <span>Read more</span>
+                                    <img loading="lazy"
+                                        src="https://cdn.builder.io/api/v1/image/assets/TEMP/7a811d6ef5d9850afed8dff5016f772be6f066f6566a8eedf130cba55b7f3a78?placeholderIfAbsent=true&apiKey=44bb16c3d0ae47df87cf8267c3db8b42"
+                                        alt=""
+                                        class="object-contain shrink-0 self-stretch my-auto pt-1.5 w-7 aspect-square" />
+                                </a>
+                            </div>
+                        </article>
+                        <article
+                            class="flex flex-wrap flex-1 shrink gap-6 items-center h-full basis-0 min-w-[240px] max-md:max-w-full">
+                            <img loading="lazy" src="images/Library.jpeg" alt="Blog post thumbnail"
+                                class="object-contain self-stretch my-auto aspect-square min-w-[240px] w-[250px]" />
+                            <div class="flex flex-col flex-1 shrink self-stretch my-auto basis-0 min-w-[240px]">
+                                <div class="flex flex-col w-full">
+                                    <div class="flex gap-4 items-center self-start text-sm font-semibold">
+                                        <span
+                                            class="self-stretch px-2 py-1 my-auto whitespace-nowrap bg-zinc-100">Category</span>
+                                        <span class="self-stretch my-auto">5 min read</span>
+                                    </div>
+                                    <h3 class="mt-4 text-2xl font-bold leading-snug">Blog title heading will go here
+                                    </h3>
+                                    <p class="mt-2 text-base leading-6">
+                                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius
+                                        enim...
+                                    </p>
+                                </div>
+                                <a href="#" class="flex gap-0 justify-center items-center self-start mt-6 text-base">
+                                    <span>Read more</span>
+                                    <img loading="lazy"
+                                        src="https://cdn.builder.io/api/v1/image/assets/TEMP/7a811d6ef5d9850afed8dff5016f772be6f066f6566a8eedf130cba55b7f3a78?placeholderIfAbsent=true&apiKey=44bb16c3d0ae47df87cf8267c3db8b42"
+                                        alt=""
+                                        class="object-contain shrink-0 self-stretch my-auto pt-1.5 w-7 aspect-square" />
+                                </a>
+                            </div>
+                        </article>
+                    </div>
+                    <div class="flex flex-wrap gap-10 mt-16 w-full max-md:mt-10 max-md:max-w-full">
+                        <article
+                            class="flex flex-wrap flex-1 shrink gap-6 items-center h-full basis-0 min-w-[240px] max-md:max-w-full">
+                            <img loading="lazy" src="images/walk.jpg" alt="Blog post thumbnail"
+                                class="object-contain self-stretch my-auto aspect-square min-w-[240px] w-[250px]" />
+                            <div class="flex flex-col flex-1 shrink self-stretch my-auto basis-0 min-w-[240px]">
+                                <div class="flex flex-col w-full">
+                                    <div class="flex gap-4 items-center self-start text-sm font-semibold">
+                                        <span
+                                            class="self-stretch px-2 py-1 my-auto whitespace-nowrap bg-zinc-100">Category</span>
+                                        <span class="self-stretch my-auto">5 min read</span>
+                                    </div>
+                                    <h3 class="mt-4 text-2xl font-bold leading-snug">Blog title heading will go here
+                                    </h3>
+                                    <p class="mt-2 text-base leading-6">
+                                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius
+                                        enim...
+                                    </p>
+                                </div>
+                                <a href="#" class="flex gap-0 justify-center items-center self-start mt-6 text-base">
+                                    <span>Read more</span>
+                                    <img loading="lazy"
+                                        src="https://cdn.builder.io/api/v1/image/assets/TEMP/7a811d6ef5d9850afed8dff5016f772be6f066f6566a8eedf130cba55b7f3a78?placeholderIfAbsent=true&apiKey=44bb16c3d0ae47df87cf8267c3db8b42"
+                                        alt=""
+                                        class="object-contain shrink-0 self-stretch my-auto pt-1.5 w-7 aspect-square" />
+                                </a>
+                            </div>
+                        </article>
+                        <article
+                            class="flex flex-wrap flex-1 shrink gap-6 items-center h-full basis-0 min-w-[240px] max-md:max-w-full">
+                            <img loading="lazy" src="images/placements.jpg" alt="Blog post thumbnail"
+                                class="object-contain self-stretch my-auto aspect-square min-w-[240px] w-[250px]" />
+                            <div class="flex flex-col flex-1 shrink self-stretch my-auto basis-0 min-w-[240px]">
+                                <div class="flex flex-col w-full">
+                                    <div class="flex gap-4 items-center self-start text-sm font-semibold">
+                                        <span
+                                            class="self-stretch px-2 py-1 my-auto whitespace-nowrap bg-zinc-100">Category</span>
+                                        <span class="self-stretch my-auto">5 min read</span>
+                                    </div>
+                                    <h3 class="mt-4 text-2xl font-bold leading-snug">Blog title heading will go here
+                                    </h3>
+                                    <p class="mt-2 text-base leading-6">
+                                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius
+                                        enim...
+                                    </p>
+                                </div>
+                                <a href="#" class="flex gap-0 justify-center items-center self-start mt-6 text-base">
+                                    <span>Read more</span>
+                                    <img loading="lazy"
+                                        src="https://cdn.builder.io/api/v1/image/assets/TEMP/7a811d6ef5d9850afed8dff5016f772be6f066f6566a8eedf130cba55b7f3a78?placeholderIfAbsent=true&apiKey=44bb16c3d0ae47df87cf8267c3db8b42"
+                                        alt=""
+                                        class="object-contain shrink-0 self-stretch my-auto pt-1.5 w-7 aspect-square" />
+                                </a>
+                            </div>
+                        </article>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section
+            class="flex overflow-hidden flex-col px-16 py-28 w-full bg-white max-md:px-5 max-md:py-24 max-md:max-w-full">
+            <div class="flex flex-col self-center max-w-full text-center text-black w-[768px]">
+                <p class="self-center text-base font-semibold">Revolutionary</p>
+                <h2 class="mt-4 text-5xl font-bold leading-tight max-md:max-w-full max-md:text-4xl">Unlock Your
+                    Potential with AI Chat</h2>
+                <p class="mt-6 text-lg leading-7 max-md:max-w-full">
+                    Our AI chat bot mentorship postal provides real-time feedback, progress tracking, and personalized
+                    resource recommendations to help you achieve your goals.
+                </p>
+            </div>
+            <div class="flex flex-col mt-20 w-full max-md:mt-10 max-md:max-w-full">
+                <div class="flex flex-wrap gap-10 items-center w-full text-center text-black max-md:max-w-full">
+                    <div class="flex flex-col items-center self-stretch my-auto min-w-[240px] w-[303px]">
+                        <div class="flex flex-col w-60 max-w-full">
+                            <img loading="lazy"
+                                src="https://cdn.builder.io/api/v1/image/assets/TEMP/95bcd00233d75dd56f463c14335eceb2eb99c46acb82e9e49543a8de30ec595b?placeholderIfAbsent=true&apiKey=44bb16c3d0ae47df87cf8267c3db8b42"
+                                alt="" class="object-contain self-center w-12 aspect-square" />
+                            <h3 class="mt-6 text-2xl font-bold leading-snug">Feedback</h3>
+                            <p class="mt-4 text-base leading-6">
+                                Receive instant feedback on your work to improve your skills and knowledge.
+                            </p>
+                        </div>
+                        <div class="flex flex-col mt-16 w-60 max-w-full max-md:mt-10">
+                            <img loading="lazy"
+                                src="https://cdn.builder.io/api/v1/image/assets/TEMP/95bcd00233d75dd56f463c14335eceb2eb99c46acb82e9e49543a8de30ec595b?placeholderIfAbsent=true&apiKey=44bb16c3d0ae47df87cf8267c3db8b42"
+                                alt="" class="object-contain self-center w-12 aspect-square" />
+                            <h3 class="mt-6 text-2xl font-bold leading-snug">Tracking</h3>
+                            <p class="mt-4 text-base leading-6">
+                                Track your progress over time and see how far you've come.
+                            </p>
+                        </div>
+                    </div>
+                    <img loading="lazy" src="images/bu.jpg" alt="AI Chat Interface"
+                        class="object-contain flex-1 shrink self-stretch my-auto w-full aspect-[1.13] basis-0 min-w-[240px] max-md:max-w-full" />
+                    <div class="flex flex-col items-center self-stretch my-auto min-w-[240px] w-[303px]">
+                        <div class="flex flex-col w-60 max-w-full">
+                            <img loading="lazy"
+                                src="https://cdn.builder.io/api/v1/image/assets/TEMP/95bcd00233d75dd56f463c14335eceb2eb99c46acb82e9e49543a8de30ec595b?placeholderIfAbsent=true&apiKey=44bb16c3d0ae47df87cf8267c3db8b42"
+                                alt="" class="object-contain self-center w-12 aspect-square" />
+                            <h3 class="mt-6 text-2xl font-bold leading-snug">Recommendations</h3>
+                            <p class="mt-4 text-base leading-6">
+                                Get personalized resource recommendations to enhance your learning experience.
+                            </p>
+                        </div>
+                        <div class="flex flex-col mt-16 w-60 max-w-full max-md:mt-10">
+                            <img loading="lazy"
+                                src="https://cdn.builder.io/api/v1/image/assets/TEMP/95bcd00233d75dd56f463c14335eceb2eb99c46acb82e9e49543a8de30ec595b?placeholderIfAbsent=true&apiKey=44bb16c3d0ae47df87cf8267c3db8b42"
+                                alt="" class="object-contain self-center w-12 aspect-square" />
+                            <h3 class="mt-6 text-2xl font-bold leading-snug">Join Now</h3>
+                            <p class="mt-4 text-base leading-6">
+                                Start your journey towards success with our AI chat bot mentorship postal.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="flex gap-6 items-center self-center pt-4 mt-12 text-base text-black max-md:mt-10">
+                    <a href="#"
+                        class="gap-2 hover:bg-black hover:text-white self-stretch px-6 py-3 my-auto border border-black border-solid max-md:px-5">
+                        Learn More
+                    </a>
+                    <a href="#" class="flex gap-2 justify-center items-center self-stretch my-auto">
+                        <span>Sign Up</span>
+                        <img loading="lazy"
+                            src="https://cdn.builder.io/api/v1/image/assets/TEMP/9cc59fc65142f42773e3131d8a5a5a8d452f8191d61b72aca044880ddbb310ec?placeholderIfAbsent=true&apiKey=44bb16c3d0ae47df87cf8267c3db8b42"
+                            alt="" class="object-contain shrink-0 self-stretch my-auto w-6 aspect-square" />
+                    </a>
+                </div>
+            </div>
+        </section>
+        <section class="flex flex-col">
+            <div
+                class="flex overflow-hidden relative flex-col justify-center items-center px-16 py-28 w-full min-h-[482px] max-md:px-5 max-md:py-24 max-md:max-w-full">
+                <img loading="lazy" src="images/Brainware-university.jpg" alt=""
+                    class="object-cover brightness-50 absolute inset-0 size-full" />
+                <div class="flex relative flex-col max-w-full w-[768px]">
+                    <header class="flex flex-col w-full text-center text-white max-md:max-w-full">
+                        <h1 class="text-5xl font-bold text-white leading-tight max-md:max-w-full max-md:text-4xl">
+                            Medium length heading goes here
+                        </h1>
+                        <p class="mt-6 text-lg leading-7 text-white max-md:max-w-full">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros
+                            elementum tristique.
+                        </p>
+                    </header>
+                    <div class="flex flex-col self-center pt-4 mt-6 max-w-full w-[513px]">
+                        <form class="flex flex-wrap gap-4 items-start w-full text-base max-md:max-w-full">
+                            <label for="emailInput" class="sr-only">Enter your email</label>
+                            <input type="email" id="emailInput" placeholder="Enter your email"
+                                aria-label="Enter your email"
+                                class="flex-1 shrink gap-2 self-stretch p-3 bg-white border border-black border-solid basis-6 min-w-[240px] text-stone-500" />
+                            <button type="submit"
+                                class="gap-2 self-stretch px-6 py-3 text-white hover:bg-black hover:text-white  bg-black border border-black border-solid max-md:px-5">
+                                Sign Up
+                            </button>
+                        </form>
+                        <p class="self-start mt-4 text-xs text-center text-white underline max-md:max-w-full">
+                            By clicking Sign Up you're confirming that you agree with our
+                            <a href="#" class="text-white underline">Terms and Conditions</a>.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="flex flex-col">
+            <div
+                class="flex overflow-hidden flex-col items-start px-16 py-28 w-full bg-white max-md:px-5 max-md:py-24 max-md:max-w-full">
+                <header class="flex flex-col max-w-full w-[768px]">
+                    <h2 class="text-5xl font-bold leading-tight text-black max-md:max-w-full max-md:text-4xl">FAQs</h2>
+                    <p class="mt-6 text-lg leading-7 text-black max-md:max-w-full">Frequently asked questions ordered by
+                        popularity. Remember that if the visitor has not committed to the call to action, they may still
+                        have questions (doubts) that can be answered.</p>
+                </header>
+                <div class="flex flex-col self-stretch mt-20 w-full text-lg text-black max-md:mt-10 max-md:max-w-full">
+                    <article class="flex flex-col w-full max-md:max-w-full">
+                        <hr class="flex w-full bg-black border border-black border-solid min-h-[1px] max-md:max-w-full">
+                        <div class="flex flex-wrap gap-10 items-start mt-6 w-full max-md:max-w-full">
+                            <h3 class="font-bold w-[500px] max-md:max-w-full">Question text goes here</h3>
+                            <p class="flex-1 shrink leading-7 basis-0 max-md:max-w-full">Lorem ipsum dolor sit amet,
+                                consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis
+                                cursus, mi quis viverra ornare, eros dolor interdum nulla, ut commodo diam libero vitae
+                                erat. Aenean faucibus nibh et justo cursus id rutrum lorem imperdiet. Nunc ut sem vitae
+                                risus tristique posuere.</p>
+                        </div>
+                    </article>
+                    <article class="flex flex-col mt-12 w-full max-md:mt-10 max-md:max-w-full">
+                        <hr class="flex w-full bg-black border border-black border-solid min-h-[1px] max-md:max-w-full">
+                        <div class="flex flex-wrap gap-10 items-start mt-6 w-full max-md:max-w-full">
+                            <h3 class="font-bold w-[500px] max-md:max-w-full">Question text goes here</h3>
+                            <p class="flex-1 shrink leading-7 basis-0 max-md:max-w-full">Lorem ipsum dolor sit amet,
+                                consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis
+                                cursus, mi quis viverra ornare, eros dolor interdum nulla, ut commodo diam libero vitae
+                                erat. Aenean faucibus nibh et justo cursus id rutrum lorem imperdiet. Nunc ut sem vitae
+                                risus tristique posuere.</p>
+                        </div>
+                    </article>
+                    <article class="flex flex-col mt-12 w-full max-md:mt-10 max-md:max-w-full">
+                        <hr class="flex w-full bg-black border border-black border-solid min-h-[1px] max-md:max-w-full">
+                        <div class="flex flex-wrap gap-10 items-start mt-6 w-full max-md:max-w-full">
+                            <h3 class="font-bold w-[500px] max-md:max-w-full">Question text goes here</h3>
+                            <p class="flex-1 shrink leading-7 basis-0 max-md:max-w-full">Lorem ipsum dolor sit amet,
+                                consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis
+                                cursus, mi quis viverra ornare, eros dolor interdum nulla, ut commodo diam libero vitae
+                                erat. Aenean faucibus nibh et justo cursus id rutrum lorem imperdiet. Nunc ut sem vitae
+                                risus tristique posuere.</p>
+                        </div>
+                    </article>
+                    <article class="flex flex-col mt-12 w-full max-md:mt-10 max-md:max-w-full">
+                        <hr class="flex w-full bg-black border border-black border-solid min-h-[1px] max-md:max-w-full">
+                        <div class="flex flex-wrap gap-10 items-start mt-6 w-full max-md:max-w-full">
+                            <h3 class="font-bold w-[500px] max-md:max-w-full">Question text goes here</h3>
+                            <p class="flex-1 shrink leading-7 basis-0 max-md:max-w-full">Lorem ipsum dolor sit amet,
+                                consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis
+                                cursus, mi quis viverra ornare, eros dolor interdum nulla, ut commodo diam libero vitae
+                                erat. Aenean faucibus nibh et justo cursus id rutrum lorem imperdiet. Nunc ut sem vitae
+                                risus tristique posuere.</p>
+                        </div>
+                    </article>
+                </div>
+                <div class="flex flex-col mt-20 max-w-full text-black w-[560px] max-md:mt-10">
+                    <div class="flex flex-col w-full max-md:max-w-full">
+                        <h2 class="text-3xl font-bold leading-tight max-md:max-w-full">Still have a questions?</h2>
+                        <p class="mt-4 text-lg max-md:max-w-full">Lorem ipsum dolor sit amet, consectetur adipiscing
+                            elit.</p>
+                    </div>
+                    <a href="#"
+                        class="gap-2 self-start px-6 py-3 mt-6 text-base whitespace-nowrap hover:bg-black hover:text-white border border-black border-solid max-md:px-5"
+                        role="button">Contact</a>
+                </div>
+            </div>
+        </section>
+        <footer class="flex overflow-hidden flex-col px-16 py-20 w-full bg-white max-md:px-5 max-md:max-w-full">
+            <div class="flex flex-wrap gap-10 items-start w-full min-h-[248px] max-md:max-w-full">
+                <div class="flex flex-wrap flex-1 shrink gap-10 items-start basis-0 min-w-[240px] max-md:max-w-full">
+                    <div class="flex overflow-hidden flex-col flex-1 shrink items-start basis-0">
+                        <img loading="lazy"
+                            src="https://cdn.builder.io/api/v1/image/assets/TEMP/d11143d0ad520f913fa09a5e9db408d14167831226dd81813f6d49d09acf3420?placeholderIfAbsent=true&apiKey=44bb16c3d0ae47df87cf8267c3db8b42"
+                            alt="Company logo" class="object-contain aspect-[2.33] w-[63px]" />
+                    </div>
+                    <nav class="flex overflow-hidden flex-col flex-1 shrink basis-0">
+                        <h4 class="text-base font-semibold text-black">Column One</h4>
+                        <ul class="flex flex-col mt-4 w-full text-sm text-black">
+                            <li class="flex-1 shrink py-2 w-full"><a href="#">Link One</a></li>
+                            <li class="flex-1 shrink py-2 w-full"><a href="#">Link Two</a></li>
+                            <li class="flex-1 shrink py-2 w-full"><a href="#">Link Three</a></li>
+                            <li class="flex-1 shrink py-2 w-full"><a href="#">Link Four</a></li>
+                            <li class="flex-1 shrink py-2 w-full"><a href="#">Link Five</a></li>
+                        </ul>
+                    </nav>
+                    <nav class="flex overflow-hidden flex-col flex-1 shrink basis-0">
+                        <h4 class="text-base font-semibold text-black">Column Two</h4>
+                        <ul class="flex flex-col mt-4 w-full text-sm text-black">
+                            <li class="flex-1 shrink py-2 w-full"><a href="#">Link Six</a></li>
+                            <li class="flex-1 shrink py-2 w-full"><a href="#">Link Seven</a></li>
+                            <li class="flex-1 shrink py-2 w-full"><a href="#">Link Eight</a></li>
+                            <li class="flex-1 shrink py-2 w-full"><a href="#">Link Nine</a></li>
+                            <li class="flex-1 shrink py-2 w-full"><a href="#">Link Ten</a></li>
+                        </ul>
+                    </nav>
+                    <nav class="flex overflow-hidden flex-col flex-1 shrink basis-0">
+                        <h4 class="text-base font-semibold text-black">Column Three</h4>
+                        <ul class="flex flex-col mt-4 w-full text-sm text-black">
+                            <li class="flex-1 shrink py-2 w-full"><a href="#">Link Eleven</a></li>
+                            <li class="flex-1 shrink py-2 w-full"><a href="#">Link Twelve</a></li>
+                            <li class="flex-1 shrink py-2 w-full"><a href="#">Link Thirteen</a></li>
+                            <li class="flex-1 shrink py-2 w-full"><a href="#">Link Fourteen</a></li>
+                            <li class="flex-1 shrink py-2 w-full"><a href="#">Link Fifteen</a></li>
+                        </ul>
+                    </nav>
+                </div>
+                <div class="flex flex-col min-w-[240px] w-[500px] max-md:max-w-full">
+                    <div class="flex flex-col w-full text-base text-black max-md:max-w-full">
+                        <h4 class="font-semibold max-md:max-w-full">Subscribe</h4>
+                        <p class="mt-4 max-md:max-w-full">Join our newsletter to stay up to date on features and
+                            releases.</p>
+                    </div>
+                    <form class="flex flex-col mt-6 w-full max-md:max-w-full">
+                        <div class="flex flex-wrap gap-4 items-start w-full text-base max-md:max-w-full">
+                            <label for="footer-email" class="sr-only">Enter your email</label>
+                            <input type="email" id="footer-email" placeholder="Enter your email"
+                                class="flex-1 shrink gap-2 self-stretch p-3 bg-white border border-black border-solid basis-6 min-w-[240px] text-stone-500"
+                                required />
+                            <button type="submit"
+                                class="gap-2 self-stretch px-6 py-3 text-black hover:bg-black hover:text-white  whitespace-nowrap border border-black border-solid max-md:px-5">
+                                Subscribe
+                            </button>
+                        </div>
+                        <p class="mt-4 text-xs leading-5 text-black underline max-md:max-w-full">
+                            By subscribing you agree to with our <a href="#" class="text-black underline">Privacy
+                                Policy</a> and provide consent to receive updates from our company.
+                        </p>
+                    </form>
+                </div>
+            </div>
+            <div class="flex flex-col mt-20 w-full max-md:mt-10 max-md:max-w-full">
+                <hr class="w-full border-t border-black max-md:max-w-full" />
+                <div class="flex flex-wrap gap-10 justify-between items-start mt-8 w-full max-md:max-w-full">
+                    <div class="flex flex-wrap gap-6 items-center text-sm min-w-[240px] max-md:max-w-full">
+                        <p class="self-stretch my-auto text-black">© 2023 DEMO. All rights reserved.</p>
+                        <nav class="flex gap-6 items-start self-stretch my-auto text-black min-w-[240px]">
+                            <a href="#" class="underline">Privacy Policy</a>
+                            <a href="#" class="underline">Terms of Service</a>
+                            <a href="#" class="underline">Cookies Settings</a>
+                        </nav>
+                    </div>
+                    <div class="flex gap-3 items-start">
+                        <a href="#" aria-label="Twitter">
+                            <img loading="lazy"
+                                src="https://cdn.builder.io/api/v1/image/assets/TEMP/b374903b3b58f19a20b6f17412e6ef64138924ca84fc6958d2fc69c6506b998f?placeholderIfAbsent=true&apiKey=44bb16c3d0ae47df87cf8267c3db8b42"
+                                alt="" class="object-contain shrink-0 w-6 aspect-square" />
+                        </a>
+                        <a href="#" aria-label="Facebook">
+                            <img loading="lazy"
+                                src="https://cdn.builder.io/api/v1/image/assets/TEMP/973ae2f4bac06b359363caa91c8fe840470c8c5a065f3d76266dc2c16e296983?placeholderIfAbsent=true&apiKey=44bb16c3d0ae47df87cf8267c3db8b42"
+                                alt="" class="object-contain shrink-0 w-6 aspect-square" />
+                        </a>
+                        <a href="#" aria-label="Instagram">
+                            <img loading="lazy"
+                                src="https://cdn.builder.io/api/v1/image/assets/TEMP/ed46b9abb949e8a22ffc48b3d7a136e1ac7e46ec75a01a045e5cdf8f55d5534c?placeholderIfAbsent=true&apiKey=44bb16c3d0ae47df87cf8267c3db8b42"
+                                alt="" class="object-contain shrink-0 w-6 aspect-square" />
+                        </a>
+                        <a href="#" aria-label="LinkedIn">
+                            <img loading="lazy"
+                                src="https://cdn.builder.io/api/v1/image/assets/TEMP/13a02d80b8bb97dfdba0b258be17959dd7ae5710974b47563f547fe30fd24d95?placeholderIfAbsent=true&apiKey=44bb16c3d0ae47df87cf8267c3db8b42"
+                                alt="" class="object-contain shrink-0 w-6 aspect-square" />
+                        </a>
+                        <a href="#" aria-label="YouTube">
+                            <img loading="lazy"
+                                src="https://cdn.builder.io/api/v1/image/assets/TEMP/458c3519d07148cb4a736cdd8ec44c8f83ec0dd87c107978a9abfa6ecaab4c5f?placeholderIfAbsent=true&apiKey=44bb16c3d0ae47df87cf8267c3db8b42"
+                                alt="" class="object-contain shrink-0 w-6 aspect-square" />
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </header>
+
+    <script src="js/index.js"></script>
+</body>
+
+</html>
